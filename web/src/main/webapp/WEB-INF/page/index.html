@@ -3,8 +3,6 @@
 <title>AngularJs基础</title>
 <script th:include="layout/common::common-header" th:remove="tag"></script>
 <script src="web/index.js" th:src="@{/resources/web/index.js}"></script>
-
-
 </head>
 <body ng-app="indexApp" ng-controller="IndexController">
 	
@@ -48,7 +46,7 @@
 	HTTP 传值
 	<hr></hr>
 	<div>VALUE VIA HTTP{{valueViaHttp}}</div>
-	
+	<button ng-click="addOneServiceTrigger()">调用服务</button>
 </body>
 
 
