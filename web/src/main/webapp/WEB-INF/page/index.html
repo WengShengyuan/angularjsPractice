@@ -6,14 +6,24 @@
 
 
 </head>
-<body ng-app="indexApp">
-
-	<div ng-controller="IndexController">
+<body ng-app="indexApp" ng-controller="IndexController">
+	
+	<hr></hr>
+	注入
+	<hr></hr>
+	<div>
 		<button ng-click="sayHello()">打招呼</button>
-		<hr></hr>
-		{{user}}
+		$scope.user = {{user}}
 	</div>
-
+	
+	
+	<hr></hr>
+	数据绑定
+	<hr></hr>
+	<div>
+		<ez-namecard data="sb"></ez-namecard>
+		<ez-namecard-editor data="sb"></ez-namecard-editor>
+	</div>
 </body>
 
 
