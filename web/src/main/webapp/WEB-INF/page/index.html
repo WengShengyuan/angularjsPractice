@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>AngularJs</title>
+<title>AngularJs基础</title>
 <script th:include="layout/common::common-header" th:remove="tag"></script>
 <script src="web/index.js" th:src="@{/resources/web/index.js}"></script>
 
@@ -9,21 +9,46 @@
 <body ng-app="indexApp" ng-controller="IndexController">
 	
 	<hr></hr>
-	注入
+	注入 与  绑定
 	<hr></hr>
 	<div>
 		<button ng-click="sayHello()">打招呼</button>
-		$scope.user = {{user}}
+		<p>$scope.user = {{user}}</p>
+		<p>$scope.yourname= {{yourname}}</p>
 	</div>
-	
-	
-	<hr></hr>
-	数据绑定
-	<hr></hr>
 	<div>
-		<ez-namecard data="sb"></ez-namecard>
-		<ez-namecard-editor data="sb"></ez-namecard-editor>
+		<ul>
+			<li ng-repeat="item in list">hello {{item.name}} you are {{item.gender}} and {{item.age}} years old</li>
+		</ul>
 	</div>
+	<div>
+	input filter key word:<input type="text" ng-model="keyword" />
+	order by select:
+	<select ng-model="orderProp">
+  		<option value="name">name</option>
+  		<option value="age">age</option>
+  		<option value="gender">gender</option>
+	</select>
+		<ul>
+			<li ng-repeat="item in list  | filter:keyword | orderBy:orderProp">hello {{item.name}} you are {{item.gender}} and {{item.age}} years old</li>
+		</ul>
+	</div>
+	
+	<hr></hr>
+	
+	<div>
+		Your name: <input type="text" ng-model="yourname" placeholder="World" />
+        Hello {{yourname || 'World'}}!
+        <!-- 双向数据绑定的yourname 变量在$scope域均起作用 -->
+	</div>
+	<a href="{{url}}">{{url}}</a>
+	
+	
+	<hr></hr>
+	HTTP 传值
+	<hr></hr>
+	<div>VALUE VIA HTTP{{valueViaHttp}}</div>
+	
 </body>
 
 
