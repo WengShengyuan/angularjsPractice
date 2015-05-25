@@ -12,33 +12,33 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\springMVC"/>
+    <property name="user.dir" value="C:\Users\WengShengyuan\git\angularjsPractice"/>
     <property name="java.runtime.version" value="1.6.0_45-b06"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\endorsed"/>
     <property name="os.arch" value="x86"/>
-    <property name="java.io.tmpdir" value="C:\Users\SHENGY~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\WENGSH~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="C:\Users\shengyuan\J2EE\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf62882684102406644.tmp"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\angularPractice\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf3381352951310482615.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jdk1.6.0_45/jre/bin/client;C:/Program Files (x86)/Java/jdk1.6.0_45/jre/bin;C:/Program Files (x86)/Java/jdk1.6.0_45/jre/lib/i386;c:\sybase\OLEDB;c:\sybase\ODBC;c:\sybase\ASEP_Win32;c:\sybase\OCS-12_5\dll;c:\sybase\OCS-12_5\lib3p;c:\sybase\OCS-12_5\bin;.\shared-1_0\jre1.2.2\bin;.\shared-1_0\jre1.2.2\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\microsoft\web platform installer\;c:\program files (x86)\microsoft asp.net\asp.net web pages\v1.0\;c:\program files (x86)\windows kits\8.0\windows performance toolkit\;c:\program files\microsoft sql server\110\tools\binn\;C:\Program Files (x86)\MATLAB71\bin\win32;C:\apache-tomcat-7.0.59\lib;C:\apache-tomcat-7.0.59\bin;C:\Program Files\apache-maven-3.3.1\bin;C:\Program Files\eclipseEE;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jdk1.6.0_45/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.6.0_45/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.6.0_45/bin/../jre/lib/i386;C:\Program Files (x86)\Java\jdk1.6.0_45\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\bin;C:\tomcat\lib;C:\tomcat\bin;c:\tool\apache-maven-3.0.5\bin;C:\Program Files (x86)\MATLAB71\bin\win32;c:\windows\system32;C:\Program Files\MATLAB\R2010b\runtime\win64;C:\Program Files\MATLAB\R2010b\bin;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Oracle\Instant Client\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\WengShengyuan\AppData\Roaming\npm;C:\Program Files\eclipse-jee-indigo-SR2-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="os.version" value="6.2"/>
-    <property name="user.home" value="C:\Users\shengyuan"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\WengShengyuan"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.6"/>
-    <property name="user.name" value="shengyuan"/>
-    <property name="java.class.path" value="C:\tools\apache-maven-3.0.5\boot\plexus-classworlds-2.4.jar"/>
+    <property name="user.name" value="WengShengyuan"/>
+    <property name="java.class.path" value="C:\Tool\apache-maven-3.0.5\boot\plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre"/>
@@ -51,7 +51,7 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\classes"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
-    <property name="maven.home" value="C:\tools\apache-maven-3.0.5"/>
+    <property name="maven.home" value="C:\Tool\apache-maven-3.0.5"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
     <property name="sun.cpu.endian" value="little"/>
