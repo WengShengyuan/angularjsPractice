@@ -17,7 +17,7 @@
         http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 
 
-	<import resource="datasource/applicationContext-datasource-ASE.xml" />
+	<import resource="datasource/applicationContext-datasource-mysql.xml" />
 
 	<!-- 加载*.properties File -->
 	<bean id="webConfig"
@@ -38,7 +38,7 @@
 	
 	
     
-	<import resource="applicationContext-ehcache.xml" />
+	<!-- import resource="applicationContext-ehcache.xml" / -->
 	
 	
 	
