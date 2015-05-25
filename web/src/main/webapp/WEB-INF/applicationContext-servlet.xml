@@ -34,12 +34,15 @@
 	<mvc:resources location="/resources/css/" mapping="/css/**" />
 	<mvc:resources location="/resources/images/" mapping="/images/**" />
 	<mvc:resources location="/resources/fonts/" mapping="/fonts/**" />
+	
+	
+	
 	<bean id="templateResolver"
 		class="org.thymeleaf.templateresolver.ServletContextTemplateResolver">
 		<property name="prefix" value="/WEB-INF/page/" />
 		<property name="suffix" value=".html" />
 		<property name="templateMode" value="XHTML" />
-		<property name="cacheable" value="false" /><!-- 是否开启缓存,开发模式下关闭,部署时应该打开 -->
+		<property name="cacheable" value="false" />
 		<property name="characterEncoding" value="UTF-8" />
 	</bean>
 
@@ -58,6 +61,8 @@
 		<property name="order" value="1" />
 		<property name="characterEncoding" value="UTF-8" />
 	</bean>
+	
+	
 
 	<!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
 	<bean id="mappingJacksonHttpMessageConverter"
