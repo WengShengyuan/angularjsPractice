@@ -11,8 +11,8 @@
 	<hr></hr>
 	<div>
 		<button ng-click="sayHello()">打招呼</button>
-		<p>$scope.user = {{user}}</p>
-		<p>$scope.yourname= {{yourname}}</p>
+		<p>$scope.user =<span ng-bind="user"></span></p>
+		<p>$scope.yourname= <span ng-bind="yourname"></span></p>
 	</div>
 	<div>
 		<ul>

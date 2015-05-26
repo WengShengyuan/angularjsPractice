@@ -22,10 +22,19 @@ public class TestController {
 	private ConfigStatic config;
 	
 	@RequestMapping(value="/index")
-	public ModelAndView home(HttpServletRequest request){
+	public ModelAndView index(HttpServletRequest request){
 		
 		ModelAndView view = new ModelAndView();
 		view.setViewName("index");
+		view.addObject("user", "AngularJs");
+		return view;
+	}
+	
+	@RequestMapping(value="/importservice")
+	public ModelAndView importservice(HttpServletRequest request){
+		
+		ModelAndView view = new ModelAndView();
+		view.setViewName("importservice");
 		view.addObject("user", "AngularJs");
 		return view;
 	}
