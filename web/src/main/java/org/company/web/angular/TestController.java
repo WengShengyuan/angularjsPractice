@@ -4,6 +4,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.company.core.common.comstatic.ConfigStatic;
+import org.company.core.common.utils.ResultInfo;
 import org.company.core.moduel.service.TestTableService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,9 +32,10 @@ public class TestController {
 	
 	@RequestMapping(value="/api/getUser")
 	@ResponseBody
-	public String getUser(HttpServletRequest request){
-		
-		return "AngularJs";
+	public ResultInfo getUser(HttpServletRequest request){
+		ResultInfo result = new ResultInfo();
+		result.addObj2Map("user", "AngularJs");
+		return result;
 	}
 	
 	

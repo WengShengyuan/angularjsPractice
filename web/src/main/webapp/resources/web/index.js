@@ -13,7 +13,7 @@ indexApp.service('listService', function() {
 });
 
 // 声明controller
-indexApp.controller('IndexController', function($scope, listService) {
+indexApp.controller('IndexController', function($scope, $http, listService) {
 
 	$scope.user = "Angular";
 	$scope.sb = {
@@ -50,8 +50,14 @@ indexApp.controller('IndexController', function($scope, listService) {
 		listService.addOneRecord($scope.list);
 	};
 
-	// $http.get('/web/test/api/getUser').success(function(data) {
-	// console.log(data);
-	// $scope.valueViaHttp = data;
-	// });
+	$http({  
+		method: 'GET',  
+		url: '/web/test/api/getUser'})
+		.success(function(data, status, headers, config) {
+			$scope.valueViaHttp = data.map.user[0];
+		})
+		.error(function(data, status, headers, config) {
+			console.log('ajax $http error');
+		});
+	
 });
